@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+* {
+  margin: 3;
+  padding: 2;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background-color: #0a0f0d;
+  color: #e8ede9;
+  min-height: 100vh;
+}
+
+.arabic {
+  font-family: 'Amiri', serif;
+}
+
+.card-glow {
+  box-shadow: 0 0 30px rgba(52, 211, 153, 0.05);
+}
+
+.progress-shimmer {
+  background: linear-gradient(90deg, #10b981, #34d399, #6ee7b7);
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+.fade-in {
+  animation: fadeIn 0.4s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
