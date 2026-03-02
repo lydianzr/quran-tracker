@@ -13,7 +13,7 @@ function JuzProgress({ currentPage }) {
   return (
     <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-5 mb-6">
       <div className="flex justify-between items-center mb-4">
-        <p className="text-zinc-500 text-xs font-medium uppercase tracking-wider">Juz Progress</p>
+        <p className="text-zinc-400 text-xs font-medium uppercase tracking-wider">Juz Progress</p>
         <span className="text-emerald-400 text-sm font-medium">Juz {currentJuz} / 30</span>
       </div>
 

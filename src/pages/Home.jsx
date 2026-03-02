@@ -43,7 +43,7 @@ function Home() {
         <div>
           <p className="text-emerald-400/60 text-sm font-medium tracking-widest uppercase mb-2">Dashboard</p>
           <h2 className="text-3xl font-semibold">Assalamualaikum 👋</h2>
-          <p className="text-zinc-500 mt-1 text-sm">May Allah make it easy for you.</p>
+          <p className="text-zinc-400 mt-1 text-sm">May Allah make it easy for you.</p>
         </div>
         <button
           onClick={() => setShowForm(true)}
@@ -54,19 +54,19 @@ function Home() {
 
       <div className="grid grid-cols-3 gap-4 mb-8">
         <div className="card-glow bg-zinc-900 border border-zinc-800 rounded-2xl p-5 text-center">
-          <p className="text-zinc-500 text-xs font-medium uppercase tracking-wider mb-3">Latest Page</p>
+          <p className="text-zinc-400 text-xs font-medium uppercase tracking-wider mb-3">Latest Page</p>
           <h3 className="text-4xl font-semibold text-emerald-400">{totalPages}</h3>
-          <p className="text-zinc-600 text-xs mt-2">of 604 pages</p>
+          <p className="text-zinc-400 text-xs mt-2">of 604 pages</p>
         </div>
         <div className="card-glow bg-zinc-900 border border-zinc-800 rounded-2xl p-5 text-center">
-          <p className="text-zinc-500 text-xs font-medium uppercase tracking-wider mb-3">Juz Done</p>
+          <p className="text-zinc-400 text-xs font-medium uppercase tracking-wider mb-3">Juz Done</p>
           <h3 className="text-4xl font-semibold text-emerald-400">{juzCompleted}</h3>
-          <p className="text-zinc-600 text-xs mt-2">of 30 juz</p>
+          <p className="text-zinc-400 text-xs mt-2">of 30 juz</p>
         </div>
         <div className="card-glow bg-zinc-900 border border-zinc-800 rounded-2xl p-5 text-center">
-          <p className="text-zinc-500 text-xs font-medium uppercase tracking-wider mb-3">Streak</p>
+          <p className="text-zinc-400 text-xs font-medium uppercase tracking-wider mb-3">Streak</p>
           <h3 className="text-4xl font-semibold text-emerald-400">{streak}</h3>
-          <p className="text-zinc-600 text-xs mt-2">{streak === 1 ? 'day' : 'days'} in a row 🔥</p>
+          <p className="text-zinc-400 text-xs mt-2">{streak === 1 ? 'day' : 'days'} in a row 🔥</p>
         </div>
       </div>
 
