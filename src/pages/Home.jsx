@@ -38,8 +38,7 @@ function Home() {
   const streak = calcStreak()
 
   return (
-    <main className="max-w-3xl mx-auto px-6 py-12 fade-in">
-
+<main className="py-12 fade-in">
       <div className="flex justify-between items-start mb-10">
         <div>
           <p className="text-emerald-400/60 text-sm font-medium tracking-widest uppercase mb-2">Dashboard</p>

@@ -40,8 +40,8 @@ function History() {
   }
 
   return (
-    <main className="max-w-3xl mx-auto px-6 py-12 fade-in">
-      <div className="flex justify-between items-start mb-10">
+        <main className="py-12 fade-in">
+        <div className="flex justify-between items-start mb-10">
         <div>
           <p className="text-emerald-400/60 text-sm font-medium tracking-widest uppercase mb-2">Records</p>
           <h2 className="text-3xl font-semibold">Reading History</h2>

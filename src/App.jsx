@@ -30,9 +30,11 @@ function App() {
   if (!session) return <Auth />
 
   return (
-    <div>
+    <div className="min-h-screen">
       <Navbar session={session} page={page} setPage={setPage} />
-      {page === 'home' ? <Home /> : <History />}
+      <div className="max-w-3xl mx-auto px-6">
+        {page === 'home' ? <Home /> : <History />}
+      </div>
     </div>
   )
 }
