@@ -53,17 +53,17 @@ function Home() {
       </div>
 
       <div className="grid grid-cols-3 gap-4 mb-8">
-        <div className="card-glow bg-zinc-900 border border-zinc-800 rounded-2xl p-5">
+        <div className="card-glow bg-zinc-900 border border-zinc-800 rounded-2xl p-5 text-center">
           <p className="text-zinc-500 text-xs font-medium uppercase tracking-wider mb-3">Latest Page</p>
           <h3 className="text-4xl font-semibold text-emerald-400">{totalPages}</h3>
           <p className="text-zinc-600 text-xs mt-2">of 604 pages</p>
         </div>
-        <div className="card-glow bg-zinc-900 border border-zinc-800 rounded-2xl p-5">
+        <div className="card-glow bg-zinc-900 border border-zinc-800 rounded-2xl p-5 text-center">
           <p className="text-zinc-500 text-xs font-medium uppercase tracking-wider mb-3">Juz Done</p>
           <h3 className="text-4xl font-semibold text-emerald-400">{juzCompleted}</h3>
           <p className="text-zinc-600 text-xs mt-2">of 30 juz</p>
         </div>
-        <div className="card-glow bg-zinc-900 border border-zinc-800 rounded-2xl p-5">
+        <div className="card-glow bg-zinc-900 border border-zinc-800 rounded-2xl p-5 text-center">
           <p className="text-zinc-500 text-xs font-medium uppercase tracking-wider mb-3">Streak</p>
           <h3 className="text-4xl font-semibold text-emerald-400">{streak}</h3>
           <p className="text-zinc-600 text-xs mt-2">{streak === 1 ? 'day' : 'days'} in a row 🔥</p>
