@@ -11,7 +11,7 @@ export default defineConfig({
       registerType: 'autoUpdate',
       manifest: {
         name: 'Quran Tracker',
-        short_name: 'Quran',
+        short_name: 'Quran Tracker',
         description: 'Track your daily Quran reading progress',
         theme_color: '#0a0f0d',
         background_color: '#0a0f0d',

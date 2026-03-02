@@ -81,7 +81,7 @@ function AddReading({ onSave, lastPage, onClose, editRecord }) {
         <button type="button" onClick={onClose} className="text-zinc-600 hover:text-zinc-400 text-xl transition-colors">✕</button>
       </div>
 
-      <div className="grid grid-cols-2 gap-4 mb-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
         <div>
           <label className={labelClass}>Date</label>
           <input type="date" value={date} onChange={e => setDate(e.target.value)} className={inputClass} />
