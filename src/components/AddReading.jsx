@@ -69,7 +69,7 @@ function AddReading({ onSave, lastPage, onClose, editRecord }) {
     setLoading(false)
   }
 
-  const inputClass = "w-full bg-zinc-800 border border-zinc-700 text-white rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-emerald-600 transition-colors"
+  const inputClass = "w-full bg-zinc-800 border border-zinc-700 text-white rounded-xl px-4 py-2.5 text-sm focus:outline-none focus:border-emerald-600 transition-colors appearance-none"
   const labelClass = "text-zinc-500 text-xs font-medium uppercase tracking-wider mb-1.5 block"
 
   return (
